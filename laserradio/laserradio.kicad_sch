@@ -3324,11 +3324,11 @@
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 17770b98-3f4d-46ce-be33-3af9bb07813a)
     (property "Reference" "U6" (id 0) (at 248.92 110.2612 0))
-    (property "Value" "AD9837" (id 1) (at 248.92 112.8012 0))
-    (property "Footprint" "" (id 2) (at 234.95 124.46 0)
+    (property "Value" "AD9833" (id 1) (at 248.92 112.8012 0))
+    (property "Footprint" "Package_SO:MSOP-10_3x3mm_P0.5mm" (id 2) (at 234.95 124.46 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (id 3) (at 234.95 124.46 0)
+    (property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/AD9833.pdf" (id 3) (at 234.95 124.46 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 560944fc-9717-4c78-acc6-55f46fff62ce))
@@ -5495,7 +5495,7 @@
       (reference "U5") (unit 1) (value "RS2255") (footprint "")
     )
     (path "/17770b98-3f4d-46ce-be33-3af9bb07813a"
-      (reference "U6") (unit 1) (value "AD9837") (footprint "")
+      (reference "U6") (unit 1) (value "AD9833") (footprint "Package_SO:MSOP-10_3x3mm_P0.5mm")
     )
     (path "/afdcf360-2e63-4a79-8740-961083c3aaf6"
       (reference "Y1") (unit 1) (value "12MHz") (footprint "Eclectronics:CSTNE")
