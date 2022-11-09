@@ -3870,7 +3870,7 @@
     (property "Footprint" "" (id 2) (at 219.71 135.89 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "https://www.we-online.com/catalog/datasheet/830206415801.pdf" (id 3) (at 199.39 127 0)
+    (property "Datasheet" "https://www.we-online.com/catalog/datasheet/831061624.pdf" (id 3) (at 199.39 127 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid d8ffc258-ab67-4cd7-bc3d-ba43f8806cb7))
