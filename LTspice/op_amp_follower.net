@@ -1,0 +1,25 @@
+* C:\dev\git\laserradio\LTspice\op_amp_follower.asc
+XU1 Vin Vminus P001 P002 Vout level2 Avol=1Meg GBW=1.5Meg Slew=1.3Meg ilimit=15m rail=0 Vos=0 phimargin=50 en=0 enk=0 in=0 ink=0 Rin=10E12
+V1 P003 P004 5
+XU2 P003 vdd
+XU3 P004 gnd
+XU4 P002 gnd
+XU5 P001 vdd
+Vin Vin P005 3.3V
+XU6 P005 gnd
+R1 Vout Vminus 1k
+R2 N002 Vminus 2k
+XU7 N002 gnd
+R3 NC_01 NC_02 4k
+XU8 N001 vdd
+XU9 Vout Vfollow P006 P007 Vfollow level2 Avol=1Meg GBW=1.5Meg Slew=1.3Meg ilimit=15m rail=0 Vos=0 phimargin=50 en=0 enk=0 in=0 ink=0 Rin=10E12
+XU10 P007 gnd
+XU11 P006 vdd
+R4 Vfollow Vlaser 1k
+R5 Vlaser P008 4k
+XU12 P008 gnd
+.include engr2420.sub
+.dc Vin 0 3.3 0.1
+.lib UniversalOpAmp2.lib
+.backanno
+.end
